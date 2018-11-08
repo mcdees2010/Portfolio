@@ -1,0 +1,127 @@
+.navbar-brand {
+	font-family: 'Varela Round';
+}
+
+.nav-item {
+	font-family: 'Varela Round';
+}
+
+.masthead {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 35rem;
+	padding: 15rem 0;
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(https://i.imgur.com/csZMCUc.jpg);
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	opacity: .9;
+  }
+  
+  .masthead h1 {
+	font-family: 'Varela Round';
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	letter-spacing: 0.8rem;
+	background: lightgray;
+	opacity: .8;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+  }
+  
+  .masthead h2 {
+	max-width: 20rem;
+	font-size: 1rem;
+	color: lightgray;
+  }
+
+.display-4 {
+	width: 100%;
+}
+  .projects-section {
+	padding: 10rem 0;
+  }
+  
+  .projects-section .featured-text {
+	padding: 2rem;
+  }
+
+  
+  @media (min-width: 992px) {
+	.projects-section .featured-text {
+	  padding: 0 0 0 2rem;
+	  border-left: 0.5rem solid #64a19d;
+	}
+  }
+  
+  .projects-section .project-text {
+	padding: 3rem;
+	font-size: 90%;
+  }
+  
+  @media (min-width: 992px) {
+	.projects-section .project-text hr {
+	  border-color: #64a19d;
+	  border-width: .25rem;
+	  width: 30%;
+	}
+  }
+
+  #contact{
+	  padding-top: 60px;
+  }
+
+  .btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1rem 1rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #64a19d;
+}
+
+.btn-primary:hover {
+  background-color: #4f837f;
+}
+
+.btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+  body {
+	font-family: 'Nunito';
+	letter-spacing: 0.0625em;
+  }
+  
+  a {
+	color: #64a19d;
+  }
+  
+  a:focus, a:hover {
+	text-decoration: none;
+	color: #3c6360;
+  }
+  
+  
+  .bg-primary {
+	background-color: #64a19d !important;
+  }
+  
+  .text-primary {
+	color: #64a19d !important;
+  }
+  
+  footer {
+	padding: 5rem 0;
+  }
